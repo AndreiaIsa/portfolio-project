@@ -1,7 +1,7 @@
 :root {
   --primary-color: aliceblue;
-  --secondary-color: #f0f1f3;
-  --box-shadow: 5px 5px 5px 5px rgb(218, 215, 215);
+  --secondary-color: #c5c9d4;
+  --box-shadow: 3px 3px 3px 3px rgb(174, 172, 195);
 }
 
 body {
@@ -9,20 +9,37 @@ body {
   color: black;
   background-color: var(--primary-color);
   text-align: center;
-  margin-top: 100px;
+}
+
+.hero {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  background-color: var(--secondary-color);
+  background-size: 100%;
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 60px;
   font-family: "Fuzzy Bubbles", cursive;
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 50px;
 }
 
-h3 {
+h3,
+h4 {
   font-size: 20px;
+  font-weight: bold;
+}
+
+h4 {
+  margin-top: 100px;
+}
+
+img {
+  width: 500px;
+  height: 500px;
 }
 
 .contact-me-link {
@@ -31,4 +48,27 @@ h3 {
   box-shadow: var(--box-shadow);
   padding: 10px;
   border-radius: 5px;
+  color: aliceblue;
+}
+
+@media (max-width: 1023px) {
+  img {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 15px;
+  }
+  h4 {
+    font-size: 15px;
+  }
 }
