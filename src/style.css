@@ -11,7 +11,7 @@
 
 body {
   font-family: Georgia, "Times New Roman", Times, serif;
-  color: black;
+  color: var(--primary-color);
   background-color: var(--accent-color);
   text-align: center;
 }
@@ -67,6 +67,7 @@ img:hover {
 
 a {
   color: var(--primary-color);
+  text-decoration: none;
 }
 
 a:hover {
@@ -119,7 +120,7 @@ a:hover {
 }
 
 footer {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 footer .social-media-links a {
