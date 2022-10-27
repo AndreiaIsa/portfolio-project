@@ -151,6 +151,7 @@ a:hover {
     display: block;
     margin: 0 auto;
     text-align: center;
+    width: 280px;
   }
 
   .coding-skills {
@@ -167,7 +168,7 @@ a:hover {
   }
 
   .project-title {
-    width: 250px;
+    width: auto;
   }
 
   .project-alignment {
