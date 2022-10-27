@@ -65,6 +65,14 @@ img:hover {
   scale: 1.1;
 }
 
+a {
+  color: var(--primary-color);
+}
+
+a:hover {
+  color: #b9c2df;
+}
+
 .contact-me-link {
   font-size: 20px;
   background: var(--primary-color);
@@ -81,14 +89,6 @@ img:hover {
 .icon {
   font-size: 50px;
   color: var(--primary-color);
-}
-
-a {
-  color: var(--primary-color);
-}
-
-a:hover {
-  color: #b9c2df;
 }
 
 .project-link-href {
