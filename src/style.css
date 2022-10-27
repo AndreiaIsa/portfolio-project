@@ -151,6 +151,10 @@ footer .social-media-links a {
     font-size: 15px;
   }
 
+  footer {
+    font-size: 10px;
+  }
+
   .about-me-title {
     text-align: center;
   }
