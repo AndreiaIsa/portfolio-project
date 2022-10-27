@@ -154,6 +154,10 @@ a:hover {
     width: 280px;
   }
 
+  .acquired-skills {
+    text-align: center;
+  }
+
   .coding-skills {
     display: block;
     margin: 0 auto;
