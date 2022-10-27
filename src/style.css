@@ -1,21 +1,32 @@
 :root {
-  --primary-color: aliceblue;
-  --secondary-color: #c5c9d4;
-  --box-shadow: 3px 3px 3px 3px rgb(174, 172, 195);
+  --primary-color: #3c4870;
+  --secondary-color: linear-gradient(
+    112.1deg,
+    rgb(32, 38, 57) 11.4%,
+    rgb(63, 76, 119) 70.2%
+  );
+  --accent-color: rgb(229, 233, 236);
+  --box-shadow: 3px 3px 3px 3px rgb(178, 177, 194);
 }
 
 body {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: black;
-  background-color: var(--primary-color);
+  background-color: var(--accent-color);
   text-align: center;
 }
 
 .hero {
   padding-top: 100px;
   padding-bottom: 50px;
-  background-color: var(--secondary-color);
-  background-size: 100%;
+  background: var(--secondary-color);
+  background-size: 150%;
+}
+
+h1,
+h2,
+h3 {
+  color: white;
 }
 
 h1 {
@@ -29,32 +40,89 @@ h2 {
 
 h3,
 h4 {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
 }
 
 h4 {
-  margin-top: 100px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: var(--primary-color);
+}
+
+p {
+  font-size: 20px;
+  text-align: justify;
 }
 
 img {
   width: 500px;
   height: 500px;
+  transition: all 250ms ease-in-out;
+}
+
+img:hover {
+  scale: 1.1;
 }
 
 .contact-me-link {
   font-size: 20px;
-  background: var(--secondary-color);
+  background: var(--primary-color);
   box-shadow: var(--box-shadow);
   padding: 10px;
   border-radius: 5px;
-  color: aliceblue;
+  color: var(--accent-color);
 }
 
-@media (max-width: 1023px) {
+.contact-me-link:hover {
+  color: rgb(177, 202, 224);
+}
+
+.icon {
+  font-size: 50px;
+  color: var(--primary-color);
+}
+
+a {
+  color: var(--primary-color);
+}
+
+a:hover {
+  color: #b9c2df;
+}
+
+.project-link-href {
+  color: var(--accent-color);
+}
+
+.about-me-paragraph {
+  text-align: justify;
+  line-height: 2;
+}
+
+.coding-skills {
+  margin-left: 50px;
+  text-align: left;
+}
+
+.coding-skills-list {
+  margin-left: 20px;
+}
+
+.project-title {
+  background-color: var(--primary-color);
+  color: var(--accent-color);
+  padding: 5px;
+  border-radius: 5px;
+  width: 410px;
+  box-shadow: var(--box-shadow);
+}
+
+@media (max-width: 1100px) {
   img {
     width: 300px;
     height: 300px;
+    margin-top: 30px;
   }
 }
 
@@ -70,5 +138,41 @@ img {
   }
   h4 {
     font-size: 15px;
+  }
+  p {
+    font-size: 15px;
+  }
+
+  .about-me-title {
+    text-align: center;
+  }
+
+  .about-me-paragraph {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .coding-skills {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .coding-skills-list {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    list-style: none;
+  }
+
+  .project-title {
+    width: 250px;
+  }
+
+  .project-alignment {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
   }
 }
