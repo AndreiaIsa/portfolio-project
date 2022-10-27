@@ -152,6 +152,9 @@ footer .social-media-links a {
   p {
     font-size: 15px;
     width: 280px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
   }
 
   footer {
