@@ -199,4 +199,8 @@ footer .social-media-links a {
     display: block;
     margin: 0 auto;
   }
+
+  .more-projects {
+    font-size: 10px;
+  }
 }
