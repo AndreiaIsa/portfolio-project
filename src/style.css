@@ -5,7 +5,7 @@
     rgb(32, 38, 57) 11.4%,
     rgb(63, 76, 119) 70.2%
   );
-  --accent-color: rgb(229, 233, 236);
+  --accent-color: white;
   --box-shadow: 3px 3px 3px 3px rgb(178, 177, 194);
 }
 
@@ -72,6 +72,10 @@ a {
 
 a:hover {
   color: #b9c2df;
+}
+
+.more-projects {
+  font-size: 25px;
 }
 
 .contact-me-link {
